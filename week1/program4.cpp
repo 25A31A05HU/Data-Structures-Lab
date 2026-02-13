@@ -4,7 +4,7 @@ int main()
 {
     int n,fact = 1;
     cout << "------------Factorial of a number------------\n";
-    cout << "Enter n value: ";
+    cout << "Enter a number: ";
     cin >> n;
     for(int i=1;i<=n;i++)
     {
