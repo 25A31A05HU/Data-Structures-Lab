@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+  int a[10],n,i,key,count=0;
+  cout << "Enter n and key values:";
+  cin >> n >> key;
+  for(i=0;i<n;i++)
+  {
+    cout << "Enter array elements: " << i+1 << ":";
+    cin >> a[i];
+  }
+  for(i=0;i<n;i++)
+  {
+    if(a[i]==key)
+    {
+      count++;
+    }
+  }
+  if(count>0)
+  {
+    cout << "Number of occurances is " << count << " times";
+  }
+  else
+  {
+    cout << "Key element not found";
+  }
+}
